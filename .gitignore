@@ -1,0 +1,44 @@
+# ----------------------------
+# Keep data local (DON'T COMMIT)
+# ----------------------------
+data/raw/
+data/interim/
+data/processed/
+
+# If you store per-cycle CSVs locally:
+**/cycles/
+**/*.zip
+**/*.7z
+
+# ----------------------------
+# Model artifacts / outputs
+# ----------------------------
+models/
+reports/
+mlruns/
+*.joblib
+*.pkl
+*.parquet
+
+# ----------------------------
+# Python / Jupyter cache
+# ----------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ----------------------------
+# Environments
+# ----------------------------
+.venv/
+env/
+ENV/
+
+# ----------------------------
+# OS files
+# ----------------------------
+Thumbs.db
+.DS_Store

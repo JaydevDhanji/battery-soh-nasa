@@ -21,6 +21,7 @@ conda activate batterysoh
 pip install -U pip
 pip install numpy pandas pyarrow scipy scikit-learn matplotlib tqdm xgboost joblib pillow
 
+```
 ## Key results 
 - GroupKFold CV(5-Fold, grouped by battery_id): MAE~ 0.09, RMSE~0.12
 -Uncertainty(group-bootstrap):
